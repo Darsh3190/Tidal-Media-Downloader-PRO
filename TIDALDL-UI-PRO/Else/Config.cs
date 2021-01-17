@@ -210,12 +210,12 @@ namespace TIDALDL_UI.Else
 
         public static string MaxFileName(string Setvalue = null)
         {
-            return SetOrGet("maxfilename", Setvalue, "50");
+            return SetOrGet("maxfilename", Setvalue, "200");
         }
 
         public static string MaxDirName(string Setvalue = null)
         {
-            return SetOrGet("maxdirname", Setvalue, "50");
+            return SetOrGet("maxdirname", Setvalue, "200");
         }
 
         public static string ThemeIndex(string Setvalue = null)
